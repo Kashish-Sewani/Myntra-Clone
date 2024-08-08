@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+.left img {
+    padding: 17px 6px;
+    width: 70px;
+    height: 36px;
+}
+
+.left ul li {
+    list-style: none;
+    padding: 25px 15px;
+    font-size: 14px;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+.containerHeader{
+    padding:0 15vw;
+}
+
+.right {
+    font-size: 12px;
+}
+
+.rightBox {
+    display: flex;
+    margin: 33px 9px;
+
+}
+
+.profile img{
+    
+    position: absolute;
+    top: 7px;
+    right: 140px;
+}
+.wishlist img{
+    position: absolute;
+    top: 7px;
+    right: 81px;
+}
+.bag img{
+    position: absolute;
+    top: 5px;
+    right: 22px;
+}
+
+.input-control {
+    width: 25vw;
+    padding: 8px 10px 10px;
+    background-color: #F5F5F6;
+    border: none;
+    font-size: 14px;
+    color: #696e79;
+    border-radius: 5px;
+
+}
+
+.section1 {
+    background-color: #fbf9f9;
+    max-width: 80vw;
+    margin: auto;
+    padding: 0 10vw;
+}
+
+.homeImg {
+    width: 80vw;
+    margin: 12px 0;
+}
+
+.itemImg {
+    width: 288px;
+    height: 264px;
+}
+.tall{
+    min-height:40vh;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+@media only screen and (max-width: 1200px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .left img {
+        padding: 6px;
+    }
+
+    .left ul li {
+        padding: 0px 4px;
+        font-size: 10px;
+    }
+
+    header {
+        height: 140px;
+        padding: 0px 5px;
+        width: 187vw;
+    }
+
+    .input-control {
+        width: 70vw;
+    }
+
+    .right {
+        flex-direction: column;
+    }
+    .itemImg{
+        width:160px;
+        height:170px;
+    }
+    .section2{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .containerHeader{
+        padding:0 4vw;
+    }
+}
